@@ -19,8 +19,8 @@ vector<int>intersect(vector<int>& nums1, vector<int>& nums2)
 }
 int main() 
 {
-    vector<int> nums1={1,2,2,1};
-    vector<int> nums2={2,2};
+    vector<int> nums1={4,9,5};
+    vector<int> nums2={4,9};
     vector<int> ans=intersect(nums1,nums2);
     for(int x:ans)
         cout<<x<<" ";
